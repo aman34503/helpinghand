@@ -1,30 +1,28 @@
-import React,{useState} from "react"
+import React, { Component } from 'react';
+import Hero from './Components/layout/Hero';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Navbar from './Components/layout/Navbar';
+import Footer from './Components/layout/Footer';
 
-import {useSpring,animated}from 'react-spring';
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
 
 
-import Start from "./loginPage/Start";
+        <Navbar />
+        <Hero />
 
-function App() {
-  const [flip, set] = useState(false)
-  const props=useSpring({to:{opacity:1},from:{opacity:0.4}, 
-    reset: true,
-    reverse: flip,
-    delay: 700,
 
-    onRest: () => set(!flip),
-})
-  return (
-    <>
-    <animated.div style={props}>
-      <center>
-            <h1 className="heading">Helping Hands, Welcomes You!</h1>
-            </center>
-            </animated.div>
-        <Start/>
-    </>
-  );
+
+       
+        <Footer />
+
+      </Router>
+    );
+  }
 }
 
 export default App;
