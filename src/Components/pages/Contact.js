@@ -1,5 +1,5 @@
 import emailjs from 'emailjs-com'
-const Mailer = () => {
+const Contact = () => {
     function sendEmail(e)
     {
         e.preventDefault();
@@ -31,5 +31,5 @@ const Mailer = () => {
     );
 };
 
-export default Mailer;
+export default Contact;
 
