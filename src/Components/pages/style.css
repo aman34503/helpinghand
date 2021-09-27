@@ -1,26 +1,25 @@
-
 #contact_form {
-    text-align: left;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .contact_lower_div {
-    background-color: #343a40;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    text-align: center;
-    font-family: "Raleway";
+  background-color: #343a40;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  text-align: center;
+  font-family: "Raleway";
 }
 
 #contact_photo {
-    padding: 10px;
-    opacity: 1;
+  padding: 10px;
+  opacity: 1;
 }
 
 #contact_photo:hover {
-    opacity: 0.3;
+  opacity: 0.3;
 }

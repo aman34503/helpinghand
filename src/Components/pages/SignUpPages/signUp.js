@@ -7,7 +7,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 const SignUp=()=>{
-    const paperStyle={padding:20,width:300,margin:'0px auto',borderRadius:'20px'}
+    const paperStyle={padding:20,width:300,margin:'0px auto'}
     const headerStyle={margin:0}
     const avatarStyle={backgroundColor:'purple'}
     const labelStyle={margin:'9px 0'}
