@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 
 const Login=({handleChange})=>{
    
-    const paperStyle={padding:20,height:'70vh',width:300,margin:"0 auto",borderRadius:'20px'}
+    const paperStyle={padding:20,height:'70vh',width:300,margin:"0 auto"}
     const avatarStyle={background: 'purple'}
     const btnStyle={margin:'8px 0'}
     const labelStyle={margin:'9px 0'}

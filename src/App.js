@@ -12,7 +12,7 @@ import Donate from './Components/pages/Donate';
 import Search from './Components/pages/Search';
 import News from './Components/pages/News';
 import Blog from './Components/pages/Blog';
-import Combine from './Components/pages/Combine';
+import SignInOutContainer from './Components/pages/SignUpPages/combine';
 {/* import Contact from './Components/pages/Contact'; */}
 
 
@@ -38,9 +38,9 @@ class App extends Component {
   
              {  /*  <Route path="/contact" exact={true} component={Contact} />  */ }
            
-      
+                <Route path="/Combine" exact={true}component={SignInOutContainer}/>
                 <Route path="/Map" exact={true} component={Map} />
-                <Route path="/Combine" exact={true} component={Combine} />
+               
           </Switch>
 
 

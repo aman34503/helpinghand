@@ -71,12 +71,9 @@ const Navbarmenu = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Search`}> Search by names </NavLink> </li>
                         </ul>
                     </li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/login`}> Register <FiChevronDown /> </Link>
-                        <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/login`}> Signin </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/signup`}> Signup </NavLink> </li>
-                        </ul>
-                    </li>
+                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Combine`}> Register </NavLink> </li>
+                        
+                  
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Blog`}> Crowdfunding(Blog) </NavLink> </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
 
